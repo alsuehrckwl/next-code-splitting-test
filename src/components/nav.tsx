@@ -4,7 +4,7 @@ import Link from 'next/link'
 const links = [
   { href: 'https://zeit.co/now', label: 'ZEIT' },
   { href: 'https://github.com/zeit/next.js', label: 'GitHub' },
-].map(link => {
+].map((link: any) => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
 })
@@ -13,8 +13,8 @@ const Nav = () => (
   <nav>
     <ul>
       <li>
-        <Link href="/">
-          <a>Home</a>
+        <Link href="/score/[type]" as="/score/soccer">
+          <a>스코어</a>
         </Link>
       </li>
       {links.map(({ key, href, label }) => (

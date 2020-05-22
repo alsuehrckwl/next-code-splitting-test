@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@pages": ["src/pages/"],
+      "@components/*": ["src/components/*"],
+      "@layout/*": ["src/layout/*"],
+    },
+    "outDir": "build/dist",
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom",
+      "esnext.asynciterable"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    ".next",
+    "node_modules",
+    "build",
+    "scripts",
+    "webpack",
+  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}
