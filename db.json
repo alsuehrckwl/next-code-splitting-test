@@ -1,0 +1,42 @@
+{
+  "sports": [
+    {
+      "id": "soccer", 
+      "data": [
+        {
+          "id": 1,
+          "sportsType": 1,
+          "score": [
+            {
+              "period": 1, 
+              "score": 0
+            },
+            {
+              "period": 2,
+              "score": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baseball", 
+      "data": [
+        {
+          "id": 1,
+          "sportsType": 1,
+          "score": [
+            {
+              "period": 1, 
+              "score": 0
+            },
+            {
+              "period": 2,
+              "score": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,10 @@
         "alias": {
           "@components": "./src/components/",
           "@pages": "./src/pages/",
-          "@layout": "./src/layout"
+          "@layout": "./src/layout",
+          "@model": "./src/models",
+          "@store": "./src/store",
+          "@service": "./src/service"
         }
       }
     ]

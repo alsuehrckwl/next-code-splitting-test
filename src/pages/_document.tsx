@@ -13,7 +13,7 @@ class MyDocument extends Document {
         <Head>
           <meta name="theme-color" content="#ffffff" />
           {/* <link rel="shortcut icon" href="/static/favicon.ico" /> */}
-          <link rel="manifest" href="manifest.json" />
+          {/* <link rel="manifest" href="manifest.json" /> */}
           {/* <link rel="apple-touch-icon" href="pwa.png" /> */}
         </Head>
         <body>
